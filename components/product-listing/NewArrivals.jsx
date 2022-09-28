@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Grid } from '@mui/material';
 import MBCard from '../MBCard';
 import CategorySectionCreator from '../CategorySectionCreator';

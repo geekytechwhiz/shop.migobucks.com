@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Search } from '@mui/icons-material';
 import { InputBase } from '@mui/material';
 import { styled } from '@mui/material/styles';

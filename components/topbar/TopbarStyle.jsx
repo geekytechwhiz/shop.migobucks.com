@@ -1,6 +1,7 @@
-import { styled } from "@mui/material";
-import { layoutConstant } from "utils/constants";
-const TopbarStyle = styled("div")(({ theme: { palette } }) => ({
+/* eslint-disable */
+import { styled } from '@mui/material';
+import { layoutConstant } from 'utils/constants';
+const TopbarStyle = styled('div')(({ theme: { palette } }) => ({
   root: {
     fontSize: 12,
     background: palette.secondary.main,
@@ -8,35 +9,35 @@ const TopbarStyle = styled("div")(({ theme: { palette } }) => ({
     color: palette.secondary.contrastText,
   },
   container: {
-    height: "100%",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "space-between",
+    height: '100%',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
   },
   topbarLeft: {
-    "& .logo": {
-      display: "none",
+    '& .logo': {
+      display: 'none',
     },
-    "& .title": {
-      marginLeft: "10px",
+    '& .title': {
+      marginLeft: '10px',
     },
-    "@media only screen and (max-width: 900px)": {
-      "& .logo": {
-        display: "block",
+    '@media only screen and (max-width: 900px)': {
+      '& .logo': {
+        display: 'block',
       },
-      "& > *:not(.logo)": {
-        display: "none",
+      '& > *:not(.logo)': {
+        display: 'none',
       },
     },
   },
   topbarRight: {
-    "& .link": {
+    '& .link': {
       paddingRight: 30,
       color: palette.secondary.contrastText,
     },
-    "@media only screen and (max-width: 900px)": {
-      "& .link": {
-        display: "none",
+    '@media only screen and (max-width: 900px)': {
+      '& .link': {
+        display: 'none',
       },
     },
   },
@@ -54,7 +55,7 @@ const TopbarStyle = styled("div")(({ theme: { palette } }) => ({
   menuTitle: {
     fontSize: 12,
     fontWeight: 600,
-    marginLeft: "0.5rem",
+    marginLeft: '0.5rem',
   },
 }));
 export default TopbarStyle;

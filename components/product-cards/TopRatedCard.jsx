@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Box } from '@mui/material';
 import MBRating from '../MBRating';
 import { FlexRowCenter } from '../flex-box';

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Box, Grid } from '@mui/material';
 import ProductCard from '../product-cards/ProductCard';
 import { H3 } from '../Typography';

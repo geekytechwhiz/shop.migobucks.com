@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable */
 import MBButton from 'components/MBButton';
 import { Box, debounce, MenuItem, TextField } from '@mui/material';
 import Link from 'next/link';

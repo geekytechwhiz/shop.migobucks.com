@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Box } from '@mui/material';
 import MBCard from '../MBCard';
 import Carousel from '../carousel/Carousel';

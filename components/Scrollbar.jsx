@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { styled, alpha } from '@mui/material/styles';
 import SimpleBar from 'simplebar-react';
 const StyledScrollBar = styled(SimpleBar)(({ theme }) => ({

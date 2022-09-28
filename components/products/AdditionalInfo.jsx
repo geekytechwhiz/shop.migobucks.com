@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Box, Grid } from '@mui/material';
 import Paper from '@mui/material/Paper';
 import Table from '@mui/material/Table';

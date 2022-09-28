@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Call, Place } from "@mui/icons-material";
 import { Avatar, Box, Button, Card, Rating } from "@mui/material";
 import { FlexBetween, FlexBox } from "components/flex-box";

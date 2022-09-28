@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Box } from '@mui/material';
 import { H3, H6 } from '../Typography'; 
 const ProductDescription = ({ data }) => {

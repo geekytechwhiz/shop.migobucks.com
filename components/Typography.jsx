@@ -1,8 +1,35 @@
-import { Box } from '@mui/material';
-
+/* eslint-disable */
+import { Box } from '@mui/material'; 
 import { styled } from '@mui/material/styles';
 import clsx from 'clsx';
 import React from 'react';
+
+const Test = ({
+  children,
+  className,
+  ellipsis,
+  textTransform,
+  ...props
+}) => {
+  return (
+    <StyledBox
+      textTransformStyle={textTransform}
+      ellipsis={ellipsis}
+      className={clsx({
+        [className || '']: true,
+      })}
+      component='h3'
+      mb={0}
+      mt={0}
+      fontSize='20px'
+      fontWeight='700'
+      lineHeight='1.5'
+      {...props}
+    >
+      {children}
+    </StyledBox>
+  );
+};
 const StyledBox = styled(Box)(({ textTransformStyle, ellipsis }) => ({
   textTransform: textTransformStyle || 'none',
   whiteSpace: ellipsis ? 'nowrap' : 'normal',
@@ -257,3 +284,4 @@ export const Tiny = ({
     </StyledBox>
   );
 };
+

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Box, Card, Grid } from '@mui/material';
 import MBAvatar from 'components/MBAvatar';
 import { FlexRowCenter } from 'components/flex-box';

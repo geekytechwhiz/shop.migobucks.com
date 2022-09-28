@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import { DeleteOutline, ModeEditOutline } from '@mui/icons-material';
 import {
   Avatar,
@@ -48,11 +47,11 @@ const Heading = ({ number, title }) => {
 };
 
 const CheckoutInfo = () => {
-   ;
+  ;
   const customerInfo =
     useSelector((state) => state.customer?.customerInfo, shallowEqual) || [];
-  const address = customerInfo?.Address?.ShippingAddress
-  const payments = customerInfo?.PaymentMethods
+  const address = customerInfo?.Address?.ShippingAddress;
+  const payments = customerInfo?.PaymentMethods;
 
   const router = useRouter();
   const [hasVoucher, setHasVoucher] = useState(false);

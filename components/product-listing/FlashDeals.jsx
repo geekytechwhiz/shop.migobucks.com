@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Box } from '@mui/material';
 import Carousel from '../carousel/Carousel';
 import CategorySectionCreator from '../CategorySectionCreator';

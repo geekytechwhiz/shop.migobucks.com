@@ -1,4 +1,4 @@
-
+/* eslint-disable */
 import { Add, Remove } from '@mui/icons-material';
 import { Box, Grid } from '@mui/material';
 import MBAvatar from '../MBAvatar';

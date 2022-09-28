@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Box, Divider } from '@mui/material';
 import MBButton from '../MBButton';
 import Image from '../MBImage';

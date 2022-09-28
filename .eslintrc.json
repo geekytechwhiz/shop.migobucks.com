@@ -38,6 +38,15 @@
         "no-multi-spaces": [
             "error"
         ],
+        // "import/no-anonymous-default-export": ["warn", {
+        //     "allowArray": false,
+        //     "allowArrowFunction": false,
+        //     "allowAnonymousClass": false,
+        //     "allowAnonymousFunction": false,
+        //     "allowCallExpression": true, // The true value here is for backward compatibility
+        //     "allowLiteral": false,
+        //     "allowObject": false
+        //   }],
         "react/jsx-uses-react": "off",
         "react/react-in-jsx-scope": "off",
         "react/prop-types":"off"

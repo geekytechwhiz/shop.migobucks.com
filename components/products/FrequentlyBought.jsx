@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import MBButton from '../MBButton';

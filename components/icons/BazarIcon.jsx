@@ -1,4 +1,3 @@
- 
 import { SvgIcon } from '@mui/material';
 import Image from 'next/image';
 import React from 'react';

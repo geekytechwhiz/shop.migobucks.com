@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Pagination } from '@mui/material';
 import { FlexBetween } from '../flex-box';
 import ProductCard from '../product-cards/ProductCard';

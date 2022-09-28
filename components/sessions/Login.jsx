@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Card } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import MBButton from '../MBButton';

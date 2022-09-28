@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Box, Container, Grid } from '@mui/material';
 import MBCard from '../MBCard';
 import CategorySectionHeader from '../CategorySectionHeader';

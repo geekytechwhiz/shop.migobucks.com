@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable */
 import { styled } from '@mui/material/styles';
 import { slideDown } from '../animations/keyframes';
 import clsx from 'clsx';
