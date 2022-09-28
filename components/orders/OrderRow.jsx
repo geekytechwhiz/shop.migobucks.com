@@ -9,20 +9,20 @@ import React from 'react'; // component props interface
 const OrderRow = ({ item }) => {
   const getColor = (status) => {
     switch (status) {
-      case 'Pending':
-        return 'secondary';
+    case 'Pending':
+      return 'secondary';
 
-      case 'Processing':
-        return 'secondary';
+    case 'Processing':
+      return 'secondary';
 
-      case 'Delivered':
-        return 'success';
+    case 'Delivered':
+      return 'success';
 
-      case 'Cancelled':
-        return 'error';
+    case 'Cancelled':
+      return 'error';
 
-      default:
-        return '';
+    default:
+      return '';
     }
   };
 
