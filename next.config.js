@@ -25,14 +25,14 @@ module.exports = withPWA({
   images: {
     domains: ['mibuploaddev.s3.ap-south-1.amazonaws.com'],
   },
-  experimental: {
-    modularizeImports: {
-      '@mui/material': {
-        transform: '@mui/material/{{member}}',
-      },
-      '@mui/icons-material/?(((\\w*)?/?)*)': {
-        transform: '@mui/icons-material/{{ matches.[1] }}/{{member}}',
-      },
-    }
-  },
+  // experimental: {
+  //   modularizeImports: {
+  //     '@mui/material': {
+  //       transform: '@mui/material/{{member}}',
+  //     },
+  //     '@mui/icons-material/?(((\\w*)?/?)*)': {
+  //       transform: '@mui/icons-material/{{ matches.[1] }}/{{member}}',
+  //     },
+  //   }
+  // },
 });
