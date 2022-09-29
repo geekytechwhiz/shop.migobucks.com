@@ -15,9 +15,9 @@ module.exports = withPWA({
     },
   },
   swcMinify: true,
-  devIndicators: {
-    autoPrerender: false,
-  },
+  // devIndicators: {
+  //   autoPrerender: false,
+  // },
   publicRuntimeConfig: {
     theme: 'DEFAULT',
   },

@@ -1,5 +1,5 @@
-import { Box, Card, Grid } from '@mui/material'; 
-import { FlexBox } from '../../flex-box/FlexBox';
+import { Box, Card, Grid } from '@mui/material';  
+import FlexBox  from '../../flex-box/FlexBox'
 import LazyImage from '../../LazyImage';
 import NavLink from '../../nav-link/NavLink';
 import Link from 'next/link';
