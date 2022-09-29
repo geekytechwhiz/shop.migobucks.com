@@ -19,20 +19,20 @@ const MegaMenu = ({
           minWidth,
         }}
       >
-        <FlexBox px={2.5} py={1.75} alignItems="unset">
-          <Box flex="1 1 0">
+        <FlexBox px={2.5} py={1.75} alignItems='unset'>
+          <Box flex='1 1 0'>
             <Grid container spacing={4}>
               {categories?.map((item, ind) => (
                 <Grid item md={3} key={ind}>
                   {item.href ? (
-                    <NavLink className="title-link" href={item.href}>
+                    <NavLink className='title-link' href={item.href}>
                       {item.title}
                     </NavLink>
                   ) : (
-                    <Box className="title-link">{item.title}</Box>
+                    <Box className='title-link'>{item.title}</Box>
                   )}
                   {item.subCategories?.map((sub, ind) => (
-                    <NavLink className="child-link" href={sub.href} key={ind}>
+                    <NavLink className='child-link' href={sub.href} key={ind}>
                       {sub.title}
                     </NavLink>
                   ))}
@@ -47,7 +47,7 @@ const MegaMenu = ({
                 <a>
                   <LazyImage
                     src={rightImage.imgUrl}
-                    objectFit="contain"
+                    objectFit='contain'
                     width={137}
                     height={318}
                   />
@@ -60,11 +60,11 @@ const MegaMenu = ({
         {bottomImage && (
           <Link href={bottomImage.href}>
             <a>
-              <Box position="relative" height="170px">
+              <Box position='relative' height='170px'>
                 <LazyImage
                   src={bottomImage.imgUrl}
-                  layout="fill"
-                  objectFit="cover"
+                  layout='fill'
+                  objectFit='cover'
                 />
               </Box>
             </a>

@@ -8,8 +8,7 @@ import { debounce } from '@mui/material/utils';
 import MBMenu from '../MBMenu';
 import { FlexBox } from '../flex-box';
 import Link from 'next/link';
-import { useCallback, useEffect, useRef, useState } from 'react'; // styled components
-// also used in the GrocerySearchBox component
+import { useCallback, useEffect, useRef, useState } from 'react';  
 
 export const SearchOutlinedIcon = styled(SearchOutlined)(({ theme }) => ({
   color: theme.palette.grey[600],
@@ -48,10 +47,15 @@ const SearchBox = () => {
     if (!value) setResultList([]);
     else setResultList(dummySearchResult);
   }, 200);
-  const hanldeSearch = useCallback((event) => {
+  // const hanldeSearch = useCallback((event) => {
+  //   event.persist();
+  //   search(event);
+  // }, []);
+
+  const hanldeSearch = (event) => {
     event.persist();
     search(event);
-  }, []);
+  }
 
   const handleDocumentClick = () => {
     setResultList([]);

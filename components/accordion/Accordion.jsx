@@ -1,18 +1,18 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { styled } from "@mui/material";
+import { styled } from '@mui/material';
 import React, {
   Children,
   cloneElement,
   useEffect,
   useRef,
   useState,
-} from "react"; // component props interface
+} from 'react'; // component props interface
 
 // styled component
-const Wrapper = styled("div")(({ open, parent_height, header_height }) => ({
-  overflow: "hidden",
-  cursor: "pointer",
-  transition: "height 250ms ease-in-out",
+const Wrapper = styled('div')(({ open, parent_height, header_height }) => ({
+  overflow: 'hidden',
+  cursor: 'pointer',
+  transition: 'height 250ms ease-in-out',
   height: open ? parent_height : header_height,
 }));
 

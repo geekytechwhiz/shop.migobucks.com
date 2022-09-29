@@ -1,27 +1,27 @@
-import { Typography } from "@mui/material";
-import { FlexRowCenter } from "components/flex-box";
-import LazyImage from "components/LazyImage";
-import React from "react";
+import { Typography } from '@mui/material';
+import { FlexRowCenter } from 'components/flex-box';
+import LazyImage from 'components/LazyImage';
+import React from 'react';
 
 const MobileCategoryImageBox = ({ title, imgUrl, Icon }) => {
   return (
-    <FlexRowCenter flexDirection="column">
+    <FlexRowCenter flexDirection='column'>
       {imgUrl ? (
         <LazyImage
           src={imgUrl}
-          borderRadius="5px"
+          borderRadius='5px'
           width={100}
           height={100}
-          objectFit="cover"
+          objectFit='cover'
         />
       ) : (
-        Icon && <Icon size="48px">{Icon}</Icon>
+        Icon && <Icon size='48px'>{Icon}</Icon>
       )}
       <Typography
-        className="ellipsis"
-        textAlign="center"
-        fontSize="11px"
-        lineHeight="1"
+        className='ellipsis'
+        textAlign='center'
+        fontSize='11px'
+        lineHeight='1'
         mt={1}
       >
         {title}

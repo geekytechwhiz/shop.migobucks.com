@@ -69,10 +69,10 @@ const CartCard = ({ ProductId, ProductName, Quantity, SellingPrice, Url }) => {
         })
       }
 
-      const mobile = localStorage.getItem("mobile") || "9037243199";
+      const mobile = localStorage.getItem('mobile') || '9037243199';
 
       const req = {
-        CustomerId: "C1663935964411",
+        CustomerId: 'C1663935964411',
         Mobile: mobile,
         CartItems: cartItem
       }

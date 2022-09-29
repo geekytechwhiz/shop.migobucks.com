@@ -9,7 +9,7 @@ const HoverBox = styled(Box)({
     right: 0,
     zIndex: 1,
     bottom: 0,
-    content: '" "',
+    content: '' '',
     position: 'absolute',
     transition: 'all 250ms ease-in-out',
   },

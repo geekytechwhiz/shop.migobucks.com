@@ -13,7 +13,7 @@ const StyledSwitch = styled(Switch)(({ theme }) => ({
       width: 16,
       height: 16,
       top: '50%',
-      content: '""',
+      content: '''',
       position: 'absolute',
       transform: 'translateY(-50%)',
     },

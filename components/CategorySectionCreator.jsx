@@ -1,6 +1,6 @@
-import { Box, Container } from "@mui/material";
-import React from "react";
-import CategorySectionHeader from "./CategorySectionHeader";
+import { Box, Container } from '@mui/material';
+import React from 'react';
+import CategorySectionHeader from './CategorySectionHeader';
 
 const CategorySectionCreator = ({
   icon,
@@ -13,7 +13,7 @@ const CategorySectionCreator = ({
     <Box mb={7.5} {...props}>
       <Container
         sx={{
-          pb: "1rem",
+          pb: '1rem',
         }}
       >
         {title && (
