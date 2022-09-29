@@ -1,6 +1,6 @@
 /* eslint-disable */
-import { Box } from '@mui/material';
-import React from 'react';
+import { Box } from "@mui/material";
+import React from "react";
 
 const Spacer = ({ mt, mb }) => {
   return <Box mt={mt} mb={mb} />;

@@ -77,7 +77,7 @@ const StyledDot = styled('div')(({ dot_color, dot_active, theme }) => ({
     height: 9,
     top: '50%',
     left: '50%',
-    content: '' '',
+    content: '" "',
     borderRadius: 300,
     position: 'absolute',
     transform: `translate(-50%, -50%) scaleX(${dot_active ? 1 : 0})`,

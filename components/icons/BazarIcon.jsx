@@ -6,8 +6,8 @@ const MigobucksIcon = () => {
   return (
     <SvgIcon htmlColor='primary' viewBox='0 0 24 24'> 
       <Image
-        src='/assets/images/icons/bag.svg'
-        alt='Cart'
+        src="/assets/images/icons/bag.svg"
+        alt="Cart"
         width={50}
         height={50}
       />

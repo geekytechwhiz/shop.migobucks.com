@@ -24,8 +24,8 @@ const SaleLayout = ({ children, title = 'Multivendor Ecommerce | Sale' }) => {
     <Fragment>
       <Head>
         <title>{title}</title>
-        <meta charSet='utf-8' />
-        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Topbar />
       <Header />
@@ -35,7 +35,7 @@ const SaleLayout = ({ children, title = 'Multivendor Ecommerce | Sale' }) => {
         <SaleNavbar saleCategoryList={saleCategoryList} />
       </Sticky>
 
-      <div className='section-after-sticky'>{children}</div>
+      <div className="section-after-sticky">{children}</div>
       <MobileNavigationBar />
       <Footer />
     </Fragment>

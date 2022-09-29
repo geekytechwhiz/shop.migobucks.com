@@ -101,7 +101,7 @@ const MobileNavigationBar2 = ({ children }) => {
     <Box position='relative' display='flex' flexDirection='column'>
       <StyledDrawer
         open={open}
-        anchor='left' // variant='persistent'
+        anchor='left' // variant="persistent"
         totalheight={totalHeight}
         onClose={handleDrawerClose}
       >
